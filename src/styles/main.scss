@@ -1,0 +1,25 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+
+@import 'layout/grid';
+
+@import 'themes/dark';
+
+
+.root-box {
+  font-family: 'Jost', sans-serif;
+  background: transparent;
+}
+
+li a {
+  text-transform: uppercase;
+  color: $color-black !important;
+}

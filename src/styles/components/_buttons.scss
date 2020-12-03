@@ -1,0 +1,39 @@
+@import '../abstracts/variables';
+
+.btn {
+  &-sky {
+    background: $color-sky !important;
+    font-size: 0.85rem;
+    padding: 0.79rem 1.6rem;
+    text-transform: uppercase;
+    color: $color-white;
+    letter-spacing: 0.05rem;
+
+    &:hover {
+      box-shadow: 0px 0px 0px 5px rgba(92, 167, 219, 0.2);
+    }
+  }
+
+  &-fixed-explore {
+    position: fixed;
+    top: 28%;
+    right: 0;
+    background: $color-white;
+
+    &:hover {
+      color: $color-sky;
+    }
+  }
+
+  &-fixed-explored {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    background: $color-white;
+
+    & i:hover {
+      color: $color-sky;
+    }
+  }
+
+}

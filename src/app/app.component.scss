@@ -1,0 +1,58 @@
+@import '../styles/abstracts/variables';
+@import '../styles/base/typography';
+@import '../styles/components/buttons';
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.nav-link:hover {
+  color: $color-sky !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.banner-box {
+  padding-top: 2rem;
+}
+
+.img-rocket2 {
+  position: relative;
+  width: 220px;
+  left: 95px;
+  top: 38px;
+  z-index: 19;
+}
+
+.img-rocket3 {
+  position: absolute;
+  width: 380px;
+  z-index: 11;
+}
+
+.img-rocket1 {
+  max-width: 100%;
+}
+
+.left-container {
+  padding: 4% 0 0 8%;
+  color: $color-graylight;
+}
+
+#btn-fixed-explored {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  #free-trial-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .right-container {
+    display: none;
+  }
+}

@@ -1,0 +1,99 @@
+@mixin respondMin($breakpointmin) {
+  @if $breakpointmin==xs-phone {
+    @media (min-width: 22.5em) {
+      @content
+    }
+
+    ; //360px
+  }
+
+  @if $breakpointmin==sm-phone {
+    @media (min-width: 36em) {
+      @content
+    }
+
+    ; //576px
+  }
+
+  @if $breakpointmin==md-tab {
+    @media (min-width: 48em) {
+      @content
+    }
+
+    ; //768px
+  }
+
+  @if $breakpointmin==lg-desktop {
+    @media (min-width: 62em) {
+      @content
+    }
+
+    ; //992px
+  }
+
+  @if $breakpointmin==xl-desktop {
+    @media (min-width: 75em) {
+      @content
+    }
+
+    ; //1200px
+  }
+
+  @if $breakpointmin==full-hd {
+    @media (min-width: 120em) {
+      @content
+    }
+
+    ; //1920px
+  }
+}
+
+@mixin respondMax($breakpoint) {
+  @if $breakpoint==xs-phone {
+    @media (max-width: 22.5em) {
+      @content
+    }
+
+    ; //360px
+  }
+
+  @if $breakpoint==sm-phone {
+    @media (max-width: 36em) {
+      @content
+    }
+
+    ; //576px
+  }
+
+  @if $breakpoint==md-tab {
+    @media (max-width: 48em) {
+      @content
+    }
+
+    ; //768px
+  }
+
+  @if $breakpoint==lg-desktop {
+    @media (max-width: 62em) {
+      @content
+    }
+
+    ; //992px
+  }
+
+  @if $breakpoint==xl-desktop {
+    @media (max-width: 75em) {
+      @content
+    }
+
+    ; //1200px
+  }
+
+  @if $breakpoint==full-hd {
+    @media (max-width: 120em) {
+      @content
+    }
+
+    ; //1920px
+  }
+}

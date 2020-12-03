@@ -1,0 +1,114 @@
+@import '../abstracts/variables';
+
+.fs {
+  &-12 {
+    font-size: 12px !important;
+  }
+
+  &-13 {
+    font-size: 13px !important;
+  }
+
+  &-14 {
+    font-size: 14px !important;
+  }
+
+  &-15 {
+    font-size: 15px !important;
+  }
+
+  &-16 {
+    font-size: 16px !important;
+  }
+
+  &-18 {
+    font-size: 18px !important;
+  }
+
+  &-20 {
+    font-size: 20px !important;
+  }
+
+  &-26 {
+    font-size: 26px !important;
+  }
+
+  &-42 {
+    font-size: 42px !important;
+  }
+
+  &-60 {
+    font-size: 60px !important;
+  }
+}
+
+.fw {
+  &-400 {
+    font-weight: 400;
+  }
+
+  &-500 {
+    font-weight: 500;
+  }
+
+  &-600 {
+    font-weight: 600;
+  }
+
+  &-700 {
+    font-weight: 700;
+  }
+
+  &-800 {
+    font-weight: 800;
+  }
+}
+
+.text {
+
+  &-graylight {
+    color: $color-graylight !important;
+  }
+
+  &-gray3 {
+    color: $color-gray3 !important;
+  }
+
+  &-graydark2 {
+    color: $color-graydark2 !important;
+  }
+
+  &-black {
+    color: $color-black !important;
+  }
+
+  &-white {
+    color: $color-white !important;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: $color-primary !important;
+  }
+
+  &-gray {
+    background-color: $color-gray !important;
+  }
+
+  &-gray2 {
+    background-color: $color-gray2;
+  }
+
+  &-offwhite {
+    background-color: $color-offwhite !important;
+  }
+
+  &-green {
+    background-color: $color-green !important;
+  }
+
+  &-sky {
+    background-color: $color-sky !important;
+  }
+}
